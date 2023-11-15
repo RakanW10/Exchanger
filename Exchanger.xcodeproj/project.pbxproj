@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		68984D762B03C39B0085E485 /* ExchangerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68984D752B03C39B0085E485 /* ExchangerApp.swift */; };
-		68984D782B03C39B0085E485 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68984D772B03C39B0085E485 /* ContentView.swift */; };
 		68984D7A2B03C39D0085E485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68984D792B03C39D0085E485 /* Assets.xcassets */; };
 		68984D7D2B03C39D0085E485 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68984D7C2B03C39D0085E485 /* Preview Assets.xcassets */; };
+		68984D882B03D9660085E485 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68984D872B03D9660085E485 /* CurrencyModel.swift */; };
+		68984D8A2B03DBEF0085E485 /* ExchangeRateApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68984D892B03DBEF0085E485 /* ExchangeRateApi.swift */; };
+		68984D8E2B03DD760085E485 /* ExchangeCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68984D8D2B03DD760085E485 /* ExchangeCalculatorView.swift */; };
+		68984D932B03DDC20085E485 /* MainBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68984D922B03DDC20085E485 /* MainBackground.swift */; };
+		68984D962B0484AE0085E485 /* CustomAppBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68984D952B0484AE0085E485 /* CustomAppBar.swift */; };
+		68984D982B0484D60085E485 /* DisplayedCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68984D972B0484D60085E485 /* DisplayedCurrency.swift */; };
+		68984D9A2B0485080085E485 /* RateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68984D992B0485080085E485 /* RateView.swift */; };
+		68984D9C2B0485420085E485 /* KeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68984D9B2B0485420085E485 /* KeyboardButton.swift */; };
+		68984D9E2B04858D0085E485 /* ExchangeCalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68984D9D2B04858D0085E485 /* ExchangeCalculatorViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		68984D722B03C39B0085E485 /* Exchanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exchanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68984D752B03C39B0085E485 /* ExchangerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangerApp.swift; sourceTree = "<group>"; };
-		68984D772B03C39B0085E485 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68984D792B03C39D0085E485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68984D7C2B03C39D0085E485 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68984D872B03D9660085E485 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		68984D892B03DBEF0085E485 /* ExchangeRateApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateApi.swift; sourceTree = "<group>"; };
+		68984D8D2B03DD760085E485 /* ExchangeCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeCalculatorView.swift; sourceTree = "<group>"; };
+		68984D922B03DDC20085E485 /* MainBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBackground.swift; sourceTree = "<group>"; };
+		68984D952B0484AE0085E485 /* CustomAppBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAppBar.swift; sourceTree = "<group>"; };
+		68984D972B0484D60085E485 /* DisplayedCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayedCurrency.swift; sourceTree = "<group>"; };
+		68984D992B0485080085E485 /* RateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateView.swift; sourceTree = "<group>"; };
+		68984D9B2B0485420085E485 /* KeyboardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardButton.swift; sourceTree = "<group>"; };
+		68984D9D2B04858D0085E485 /* ExchangeCalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeCalculatorViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +67,10 @@
 		68984D742B03C39B0085E485 /* Exchanger */ = {
 			isa = PBXGroup;
 			children = (
+				68984D852B03D8E40085E485 /* Data */,
+				68984D842B03C3EF0085E485 /* Services */,
+				68984D832B03C3CB0085E485 /* Features */,
 				68984D752B03C39B0085E485 /* ExchangerApp.swift */,
-				68984D772B03C39B0085E485 /* ContentView.swift */,
 				68984D792B03C39D0085E485 /* Assets.xcassets */,
 				68984D7B2B03C39D0085E485 /* Preview Content */,
 			);
@@ -65,6 +83,60 @@
 				68984D7C2B03C39D0085E485 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		68984D832B03C3CB0085E485 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				68984D912B03DDAA0085E485 /* GlobalComponents */,
+				68984D8B2B03DD100085E485 /* ExchangeCalculator */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		68984D842B03C3EF0085E485 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				68984D892B03DBEF0085E485 /* ExchangeRateApi.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		68984D852B03D8E40085E485 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				68984D872B03D9660085E485 /* CurrencyModel.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		68984D8B2B03DD100085E485 /* ExchangeCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				68984D942B0484960085E485 /* Components */,
+				68984D8D2B03DD760085E485 /* ExchangeCalculatorView.swift */,
+				68984D9D2B04858D0085E485 /* ExchangeCalculatorViewModel.swift */,
+			);
+			path = ExchangeCalculator;
+			sourceTree = "<group>";
+		};
+		68984D912B03DDAA0085E485 /* GlobalComponents */ = {
+			isa = PBXGroup;
+			children = (
+				68984D922B03DDC20085E485 /* MainBackground.swift */,
+			);
+			path = GlobalComponents;
+			sourceTree = "<group>";
+		};
+		68984D942B0484960085E485 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				68984D952B0484AE0085E485 /* CustomAppBar.swift */,
+				68984D972B0484D60085E485 /* DisplayedCurrency.swift */,
+				68984D992B0485080085E485 /* RateView.swift */,
+				68984D9B2B0485420085E485 /* KeyboardButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +209,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68984D782B03C39B0085E485 /* ContentView.swift in Sources */,
+				68984D9C2B0485420085E485 /* KeyboardButton.swift in Sources */,
+				68984D9E2B04858D0085E485 /* ExchangeCalculatorViewModel.swift in Sources */,
+				68984D932B03DDC20085E485 /* MainBackground.swift in Sources */,
+				68984D8A2B03DBEF0085E485 /* ExchangeRateApi.swift in Sources */,
+				68984D9A2B0485080085E485 /* RateView.swift in Sources */,
+				68984D962B0484AE0085E485 /* CustomAppBar.swift in Sources */,
+				68984D8E2B03DD760085E485 /* ExchangeCalculatorView.swift in Sources */,
+				68984D982B0484D60085E485 /* DisplayedCurrency.swift in Sources */,
 				68984D762B03C39B0085E485 /* ExchangerApp.swift in Sources */,
+				68984D882B03D9660085E485 /* CurrencyModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

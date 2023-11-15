@@ -11,7 +11,7 @@ import SwiftUI
 struct ExchangerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ExchangeCalculatorView()
         }
     }
 }
